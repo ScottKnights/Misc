@@ -8,7 +8,7 @@
 function bobify-text {
 	param (
 	[Parameter()]
-	[string] $text,
+	[string] $text="Some default text I want to Bobify",
 
 	[Parameter()]
 	[int] $bobfactor=1
